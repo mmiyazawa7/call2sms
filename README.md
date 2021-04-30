@@ -39,7 +39,7 @@ Please set "https://xxxxxx.ngrok.io" to "WEBHOOK_URL" in .env file
 
 To run application
 
-$ python3 ivr-sample.py
+$ python3 call2sms.py
     
 Webhook will be up and running using PORT:3000
 
@@ -56,7 +56,7 @@ Install Heroku CLI Tool
     
 Deploy this App to Heroku
 
-    $ git clone https://github.com/mmiyazawa7/ivr-sample-py.git
+    $ git clone https://github.com/mmiyazawa7/call2sms.git
     $ heroku create (your heroku app name)
     $ git push heroku master
     
