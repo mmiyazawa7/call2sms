@@ -1,0 +1,10 @@
+Flask==1.0.2
+nexmo==1.5.0
+PyJWT==1.5.2
+pytest==3.2.1
+python-dateutil==2.6.1
+python-dotenv==0.6.4
+python-jose==1.2.0
+unicodecsv==0.14.1
+gunicorn==19.9.0
+coloredlogs==9.0
