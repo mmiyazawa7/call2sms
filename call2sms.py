@@ -100,7 +100,7 @@ def dtmfresponse():
 
     if result == '1':
 
-        sms_text = "デジタルヒューマンに接続するためのURLは" + digital_human_url + "です"
+        sms_text = "デジタルヒューマンに接続するためのURLはこちらです" + digital_human_url
 
         
         response_SMS = client_sms.send_message({'from': 'VonageJapan', 'to': session['from'] , 'text': sms_text})
